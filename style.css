@@ -1,0 +1,351 @@
+/* reset
+--------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,b, u, i, center,
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+body {
+	line-height: 1;
+	}
+blockquote, q {
+	quotes: none;
+	}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+
+/* setup
+--------------------------------------------- */
+
+* {
+	font-family: dnp-shuei-gothic-kin-std, sans-serif;
+	color: #161616;
+	text-decoration: none;
+}
+
+body {
+	background-color: #f0f0ef;
+}
+
+
+/* margins and stuff
+--------------------------------------------- */
+
+.nav {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 10pt;
+	letter-spacing: .5pt;
+	width: 96%;
+	padding: 2%;
+	position: fixed;
+	top: 0px;
+	font-feature-settings: hwid;
+
+}
+
+.navright{
+	margin-left: 50%;
+	float: right;
+	text-align: right;
+
+    writing-mode: vertical-lr;
+}
+
+.navleft{
+	margin: 0 auto 0 auto;
+	width: 1000px;
+	text-align: center;
+}
+
+.menubox{
+	margin: 15em auto 100px;
+	position: relative;
+	text-align: left;
+	width: 23em;
+
+}
+
+.titlebox{
+	width: 100%;
+	margin: 10em auto 3em;
+	position: relative;
+	text-align: center;
+}
+
+.bodybox{
+	width: 55%;
+	margin: 3em auto 3em;
+	position: relative;
+	text-align: left;
+	min-width: 38em;
+	max-width: 50em;
+}
+
+.spacer{
+	height: 3em;
+}
+
+.spacerimg{
+	height: 31em;
+}
+
+.proj_img{
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top:0px;
+}
+
+.intro{
+	margin:30pt 0 50pt;
+}
+
+
+/* type styles
+--------------------------------------------- */
+
+.title{
+	font-weight: 400;
+	font-size: 14pt;
+	letter-spacing: 0pt;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+	.name{
+		
+		margin-left: -1em;
+		font-feature-settings: "hwid";
+	}
+
+	.namefix{
+		font-weight: 400;
+		position: fixed;
+		text-align: center;
+		width:100%;
+		top:2%;
+		font-size: 11pt;
+		z-index: 1000;
+		mix-blend-mode:multiply;
+
+	}
+
+.project{
+	font-weight: 400;
+	font-size: 11pt;
+	line-height: 18pt;
+	margin-bottom: 20pt;
+}
+
+.left{
+	float:left;}
+
+.right{
+	float: right;
+}
+
+.sup{
+	font-size: 8pt;
+	position: relative;
+	top: -4px;	
+	font-weight: 400;
+	font-feature-settings: "hwid";
+}
+
+h1{
+	font-weight: 500;
+	line-height: 20pt;
+	font-size: 10.5pt;
+	text-align: center;
+	font-feature-settings: "hwid","kern";
+	text-transform: uppercase;
+	letter-spacing: .9pt;
+	margin: 5em 0 -.5em;
+}
+
+	.fwid{
+		font-feature-settings: normal;
+	}
+
+u{
+	border-bottom: 1px solid black;
+}
+
+p{
+	font-weight: 400;
+	line-height: 22pt;
+	font-size: 11pt;
+	letter-spacing: .3pt;
+	}
+
+	.bodycaption p{
+		margin-top: 0;
+		width: 100%;
+		padding: none;
+		color: blue;
+	}
+
+	.bodybox p{
+		width: 80%;
+		padding: 0 9% 0 11%;
+		margin-bottom: 2em;
+	}
+
+
+	.rightcap p{
+		font-size: 10pt;
+		margin-bottom:3pt;
+		padding-left: 8%;
+	}
+
+	p a{
+		border-bottom: 1px solid black;
+	}
+
+
+h3{
+	font-weight: 400;
+	line-height: 20pt;
+	font-size: 9pt;
+	margin-top: -1.5em;
+	margin-left: 2%;
+	margin-bottom: 1.5em;
+
+}
+
+.chin{
+	letter-spacing: 1pt;
+}
+
+/* images
+--------------------------------------------- */
+
+.splash{
+	height: 100vh;
+	vertical-align: middle;
+	overflow: hidden;
+	margin: 0% 0 3em;
+}
+	.splash img{
+		height: 145%;
+	}
+
+.bodyimg{
+	width: 98%;
+	margin-left: 2%;
+	margin-bottom: 1em;
+}
+
+	.bodybigimg{
+		width: 100vw;
+		margin-bottom: 1em;
+	}
+
+.inlimg{
+	width: 100%;
+	margin-top: .75em;
+	margin-bottom: 1em;
+}
+
+/* other inline elements
+--------------------------------------------- */
+
+iframe{
+	width: 94%;
+	height: 40em;
+	margin-left: 2%;
+
+	border: 1px solid white;
+	border-radius: 5px 5px 0px 0px;
+	padding: 2%;
+}
+
+/* special
+--------------------------------------------- */
+
+.this1{
+	width: 98%;
+	margin-left: 2%;
+	text-align: center;
+	padding: 9em 0 9em 0;
+	background-image: url("https://www.friedenszentrum-martin-niemoeller-haus.de/ausstellung/tafeln_gross/tafel17/tafel_17_1.jpg");
+	background-size: 100%;
+	background-position-y: bottom;
+
+}
+
+.interrupt{/*DEFUNCT*/
+	margin: -2.5em auto -2.7em;
+	font-size: 5pt;
+	line-height: 6pt;
+	padding-top: 1pt;
+	text-transform: uppercase;
+	letter-spacing: .2pt;
+	font-weight: 600;
+	background-color: #000;
+	color: white;
+	width: 5em;
+	height: 2.6em;
+}
+
+.top{
+	margin-top: 50px;
+}
+
+.toomuch{
+/*	color: #999;
+	width: 15em;
+	margin-left: -3.5em;
+	margin-right: -3.8em;
+	baseline-shift: 2000pt;
+	text-transform: uppercase;
+	font-weight: 700;*/
+	display: inline-block;
+	transform(.85,1);
+  		-webkit-transform: scale(.85,1); /* Safari and Chrome */
+ 		 -moz-transform: scale(.85,1); /* Firefox */
+ 		 -ms-transform: scale(.85,1); /* IE 9+ */
+		  -o-transform: scale(.85,1); /* Opera */
+}
+
+.sidehao{
+    writing-mode: vertical-lr;
+    font-weight: 400;
+    height: 5em;
+    width: 20pt;
+    margin: 1em 0 -4.9em -14pt;
+    letter-spacing: 2pt;
+}
+
+.rightcap{
+	font-size: 9pt;
+	height: 10em;
+	width: 20em;
+	margin: 0 0 -9.6em 100%;
+}
+
+
+
